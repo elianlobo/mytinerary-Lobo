@@ -3,17 +3,17 @@ import './styles/App.css';
 import NavBar from './components/NavBar'
 import Body from './components/Body'
 import Footer from './components/Footer'
-import { Card } from '@mui/material';
+import Carousel from './components/Carrousel'
 
 
 function App() {
   return (
-    <>
+    <div>
     <NavBar/>
     <Body/>
-    <Card/>
+    <Carousel/>
     <Footer/>
-    </>
+    </div>
   );
 }
 

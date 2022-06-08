@@ -1,6 +1,27 @@
-.body {
+.Body {
+    display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	align-content: stretch !important;
+    min-height: 70vh !important;
 }
-
 #app {
-    background-color: brown !important;
+    background-color: #CC3333  ;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+	background-color: #CC3333 !important;
+	color: white !important;
+}
+.Footer{
+    display: flex !important;
+	flex-direction: row !important;
+	flex-wrap: wrap !important;
+	justify-content: center !important;
+	align-items: center !important;
+	align-content: stretch !important;
+    min-height: 10vh !important;
+	background-color: #CC3333 !important;
+	color: white !important;
 }
