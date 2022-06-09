@@ -1,6 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import '../styles/style.css'
+import '../styles/style.css';
+import {Link as LinkRouter} from "react-router-dom";
 
 //Realizo las importaciones 
 
@@ -13,6 +14,10 @@ function Body(){  //Declaro un componente funcional
                color:'#CC3333', 
             }}>
                 "Find your perfect trip, designed by insiders who know and love their cities!"
+            </Typography>
+            
+            <Typography variant="h5" className="Typo">
+                <LinkRouter to='/hola'  className="h5"> Go </LinkRouter>
             </Typography>
         </Box>
     )

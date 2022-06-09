@@ -11,6 +11,7 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
+import {Link as LinkRouter} from "react-router-dom"
 import ConnectingAirportsIcon from '@mui/icons-material/ConnectingAirports';
 import '../styles/style.css';
 
@@ -90,7 +91,9 @@ const NavBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">
+                  <LinkRouter to={page}> {page} </LinkRouter>
+                  </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -121,7 +124,7 @@ const NavBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+              <LinkRouter to={page}> {page} </LinkRouter>
               </Button>
             ))}
           </Box>

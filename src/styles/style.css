@@ -1,6 +1,6 @@
 .Body {
     display: flex !important;
-	flex-direction: row !important;
+	flex-direction: column !important;
 	flex-wrap: wrap !important;
 	justify-content: center !important;
 	align-items: center !important;
@@ -16,12 +16,72 @@
 }
 .Footer{
     display: flex !important;
-	flex-direction: row !important;
-	flex-wrap: wrap !important;
-	justify-content: center !important;
+	flex-direction: row;
+	justify-content: space-evenly !important;
 	align-items: center !important;
 	align-content: stretch !important;
     min-height: 10vh !important;
 	background-color: #CC3333 !important;
 	color: white !important;
+	border:solid 1px #DAF7A6;
+	padding-top: 1vh;
 }
+
+.SwiperFond{
+	background-color: #CC3333 !important;
+	color: white !important;
+}
+.swiper-wrapper{
+	background-color: #CC3333 !important;
+}
+
+img {
+	width: 100% !important;
+	height: 30vh !important;
+	object-fit: cover;
+}
+
+.Div{
+	background-color: #CC3333 !important;
+	padding-top: 1vh;
+}
+
+.Box{
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center !important;
+	align-items: center !important;
+	align-content: stretch !important;
+}
+
+.Error {
+	background-color: #DAF7A6;
+	font-size: 100px !important;
+	display: flex !important;
+	flex-direction: column;
+	justify-content: center !important;
+	align-items: center !important;
+	align-content: stretch !important;
+	min-height: 90vh;
+}
+
+.h5 {
+	font-size: 30px !important;
+	border: solid 3px #CC3333;
+	border-radius: 3vh;
+	padding: 1vh 2vh;
+}
+
+.Typo {
+	padding-top: 2vh;
+}
+
+a:hover{
+	color: white !important;
+}
+
+a:visited{
+	color: white !important;
+}
+
+
